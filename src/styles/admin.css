@@ -1,0 +1,16 @@
+.admin-layout {
+   display: block;
+   flex-direction: column; 
+   margin: 0 auto; 
+   width: 500px;
+   height: 92vh; 
+   background: #006FFF;
+}
+
+.input-id, .input-pw{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: #F3F5F7;
+    border: 0;
+}

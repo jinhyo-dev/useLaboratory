@@ -1,0 +1,26 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 92vh;
+    border-right: 1px solid #E6E6E8;
+}
+
+.sign-btn, .list-btn {
+    width: 200px;
+    height: 60px;
+    border: 0;
+    border-bottom: 1px solid #E6E6E8;
+    background: transparent;
+    font-weight: 650;
+    color: #191919;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sign-btn:focus, .list-btn:focus {
+    transition: 0.2s;
+    background: #006FFF;
+    color: #FFFFFF;
+    border: 0;
+}   
