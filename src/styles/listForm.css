@@ -1,0 +1,14 @@
+.listForm-container {
+    display: block;
+    margin: 100px auto;
+}
+
+.list-title {
+    background: #F3F5F7;
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    color: #191919;
+    padding: 10px;
+    border-radius: 5px;
+}

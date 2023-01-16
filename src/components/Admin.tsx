@@ -12,18 +12,21 @@ const admin = () => {
                 type="text" 
                 name='id' 
                 className='input-id' 
+                placeholder="ID"
             />
             <br />
             <input 
                 type="password" 
                 name='pw' 
                 className='input-pw' 
+                placeholder="PASSWORD"
             />
             <br />
             <input
                 type="submit"
                 name='admin-btn'
                 className='admin-btn'
+                placeholder="접속"
             />
         </div>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
+import "../styles/listForm.css";
 
 const ListForm = (props: any) => {
   return (
     <div className='listForm-container'>
-        <div>
+        <div className='list-title'>
             <span>랩실 </span>
             <span>대표이름 </span>
             <span>학년 반 번호 </span>

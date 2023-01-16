@@ -1,0 +1,36 @@
+.signForm-container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.sign-text-h2 {
+    font-weight: 500;
+    color: #191919;
+    text-align: center;
+} 
+
+.lab-div {
+    margin-top: 40px;
+}
+
+.lab-select, .name-input, .schoolNum-input, .reason-input {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: #F3F5F7;
+    color: #191919;
+    padding: 0 10px;
+}
+
+.lab-select:focus, .name-input:focus, .schoolNum-input:focus, .reason-input:focus {
+    border: 2px solid #006FFF;
+}
+
+.select-lab, .name-lab, .school-lab, .reason-lab {
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+}
