@@ -6,26 +6,71 @@
 }
 
 .logo {
-    position: relative;
     width: 130px;
     height: 20px;
-    top: 21px;
-    margin-left: 30px;
     cursor: pointer;
     outline: 0;
+    font-size: 25px;
+    position: relative;
+    top: 21px;
 }
 
-.admin-pointer {    
-    text-align: right;
-    font-size: 15px;
-    margin-right: 20px;
-    bottom: 6px;
+.sidebar {
+    display: flex;
+}
+
+.AiOutlineMenu {
+    font-size: 25px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    cursor: pointer;
+}
+
+/* sidebar 부분 */
+
+.sidebar-container {
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+    z-index: 1;
+    background: #191919;
+    bottom: 0px;
+    border-right: 1px solid #E6E6E8;
+    transition: 0.3s;
+}
+
+.AiOutlineClose {
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    top: 20px;
+    left: 210px;
+    color: white;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+}
+
+.sign-btn, .list-btn, .admin {
+    width: 250px;
+    height: 70px;
+    outline: 0;
+    border: 0;
+    background: transparent;
     cursor: pointer;
     transition: 0.1s;
-    color: #191919;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-.admin-pointer:hover {
+.sign-btn:hover, .list-btn:hover, .admin:hover {
     transition: 0.1s;
-    color: #006FFF;
+    background: white;
+    color: #191919;
 }

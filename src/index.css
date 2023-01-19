@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
-a {
+link {
   text-decoration: none;
+  color: #191919;
 }
