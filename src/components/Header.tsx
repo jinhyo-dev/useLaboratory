@@ -50,8 +50,8 @@ const Header = () => {
               </div>)
             :
             (
-             <button onClick={handleOpen}>
-               오픈
+             <button onClick={handleOpen} className="AiOutlineMenu">
+               <AiOutlineMenu />
              </button>
             )
         }

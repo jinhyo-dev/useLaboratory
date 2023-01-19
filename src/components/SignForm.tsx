@@ -20,11 +20,15 @@ const SignForm = () => {
       </div>
       <div className="lab-div">
         <p className="name-lab">대표 이름</p>
-        <input type="text" name="name" className="name-input" placeholder='예)김진효'/>
+        <input type="text" name="name" className="name-input" placeholder='예)김진효' />
       </div>
       <div className="lab-div">
         <p className="school-lab">학년 반 번호</p>
         <input type="text" name="schoolNum" className="schoolNum-input" placeholder='예)2206' />
+      </div>
+      <div className="lab-div">
+        <p className="pw-lab">비밀번호</p>
+        <input type="text" name="pw-input" className="pw-input" placeholder='비밀번호를 입력해주세요.' />
       </div>
       <input
         type="submit"

@@ -14,7 +14,7 @@
     margin-top: 40px;
 }
 
-.lab-select, .name-input, .schoolNum-input, .reason-input {
+.lab-select, .name-input, .schoolNum-input, .pw-input {
     width: 400px;
     height: 50px;
     border-radius: 5px;
@@ -25,11 +25,11 @@
     padding: 0 10px;
 }
 
-.lab-select:focus, .name-input:focus, .schoolNum-input:focus, .reason-input:focus {
+.lab-select:focus, .name-input:focus, .schoolNum-input:focus, .pw-input:focus {
     border: 2px solid #006FFF;
 }
 
-.select-lab, .name-lab, .school-lab, .reason-lab {
+.select-lab, .name-lab, .school-lab, .pw-lab {
     font-size: 13px;
     position: relative;
     bottom: 5px;

@@ -13,6 +13,7 @@
     font-size: 25px;
     position: relative;
     top: 21px;
+    right: 20px;
 }
 
 .sidebar {
@@ -25,6 +26,8 @@
     top: 18px;
     left: 20px;
     cursor: pointer;
+    background: transparent;
+    border: 0;
 }
 
 /* sidebar 부분 */
@@ -37,7 +40,6 @@
     background: #191919;
     bottom: 0px;
     border-right: 1px solid #E6E6E8;
-    transition: 0.3s;
 }
 
 .AiOutlineClose {
