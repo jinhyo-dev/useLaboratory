@@ -26,7 +26,7 @@ const admin = () => {
                 type="submit"
                 name='admin-btn'
                 className='admin-btn'
-                placeholder="접속"
+                value="접속"
             />
         </div>
     </div>

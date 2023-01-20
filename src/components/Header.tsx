@@ -14,12 +14,18 @@ const Header = () => {
 
   return (
     <div className="header-container">
-      <div className={isBarOpen ? "open-sidebar" : "not-open-sidebar"}>
+      <div className={isBarOpen ? "not-open-sidebar" : "open-sidebar"}>
         {
           isBarOpen ? (
+            <button onClick={handleOpen} className="AiOutlineMenu">
+              <AiOutlineMenu />
+            </button>
+          )
+            :
+            (
               <div className={'sidebar'}>
                 <div className='sidebar-container'>
-                  <AiOutlineClose className='AiOutlineClose' onClick={handleOpen}/>
+                  <AiOutlineClose className='AiOutlineClose' onClick={handleOpen} />
 
                   <div className='menu-list'>
                     <Link to="/sign">
@@ -47,19 +53,15 @@ const Header = () => {
                     </Link>
                   </div>
                 </div>
-              </div>)
-            :
-            (
-             <button onClick={handleOpen} className="AiOutlineMenu">
-               <AiOutlineMenu />
-             </button>
+              </div>
+
             )
         }
       </div>
 
-      <div style={{textAlign: 'center'}}>
+      <div style={{ textAlign: 'center' }}>
         <Link to="/">
-          <img src={Logo} alt="logo" className="logo"/>
+          <img src={Logo} alt="logo" className="logo" />
         </Link>
       </div>
 

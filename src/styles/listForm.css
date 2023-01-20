@@ -40,7 +40,6 @@
     left: 120px;
 }
 
-
 .list-item {
     display: block;
     width: 600px;
@@ -85,4 +84,63 @@
 
 .reject-btn {
     color: red;
+}
+
+@media(min-width:250px) and  (max-width:425px) {
+    .list-title {
+        width: 350px;
+        height: 40px;
+    }
+
+    .list-item {
+        width: 350px;
+        height: 40px;
+    }
+
+    .list-title span {
+        font-size: 10px;
+        top: -1px;
+    }
+
+    .list-item span, .accept-btn, .reject-btn {
+        font-size: 10px;
+        top: 0px;
+    }
+
+    .list-title span:nth-of-type(1) {
+        position: relative;
+        right: 75px;
+    }
+    
+    .list-title span:nth-of-type(2) {
+        position: relative;
+        right: 30px;
+    }
+    
+    .list-title span:nth-of-type(3) {
+        position: relative;
+        left: 18px;
+    }
+    
+    .list-title span:nth-of-type(4) {
+        position: relative;
+        left: 75px;
+    }
+
+    .list-item span:nth-of-type(1) {
+        margin-left: 18px;
+    }
+    
+    .list-item span:nth-of-type(2) {
+        margin-left: 45px;
+    }
+    
+    .list-item span:nth-of-type(3) {
+        margin-left: 70px;
+    }
+
+    .accept-btn, .reject-btn {
+        left: 60px;
+        width: 25px;
+    }
 }

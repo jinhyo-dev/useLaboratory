@@ -34,3 +34,10 @@
     position: relative;
     bottom: 5px;
 }
+
+@media(min-width:250px) and (max-width:450px) {
+    .lab-select, .name-input, .schoolNum-input, .pw-input {
+        width: 300px;
+        height: 40px;
+    }
+}
