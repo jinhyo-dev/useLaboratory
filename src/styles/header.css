@@ -15,8 +15,9 @@
     top: 21px;
 }
 
-.sidebar {
+#sidebar {
     display: flex;
+    transition: all 0.4s;
 }
 
 .AiOutlineMenu {
@@ -42,13 +43,17 @@
     border-right: 1px solid #E6E6E8;
 }
 
-.AiOutlineClose {
+.not-open-sidebar {
+    margin-left: -250px;
+}
+
+.RiCloseFill {
     position: absolute;
-    font-size: 25px;
+    font-size: 26px;
     cursor: pointer;
     top: 20px;
     left: 210px;
-    color: white;
+    color: #fff;
 }
 
 .menu-list {
