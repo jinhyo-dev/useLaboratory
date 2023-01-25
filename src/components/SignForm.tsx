@@ -52,6 +52,7 @@ const SignForm = () => {
             onChange={(date: Date) => setCalendarDate(date)}
             startDate={calendarDate}
             customInput={React.createElement(datePickerCustom)}
+            className="ReactDatePicker"
           />
       </div>
       <div className="lab-div">
