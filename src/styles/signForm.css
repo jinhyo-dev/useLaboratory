@@ -10,9 +10,15 @@
     text-align: center;
 } 
 
-.lab-div {
+.lab-div, .lab-div-flex {
     margin-top: 40px;
 }
+
+.lab-div-flex {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .lab-select, .name-input, .schoolNum-input, .pw-input {
     width: 400px;
@@ -23,6 +29,24 @@
     background: #F3F5F7;
     color: #191919;
     padding: 0 10px;
+}
+
+.date-picker-custom {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: #F3F5F7;
+    color: #191919;
+    cursor: pointer;
+}
+
+.calendar-icon {
+    position: relative;
+    font-size: 15px;
+    top: 3px;
+    right: 5px;
 }
 
 .lab-select:focus, .name-input:focus, .schoolNum-input:focus, .pw-input:focus {

@@ -39,7 +39,7 @@
     height: 100vh;
     z-index: 2;
     bottom: 0px;
-    background: #191919;
+    background: white;
     border-right: 1px solid #E6E6E8;
 }
 
@@ -53,7 +53,7 @@
     cursor: pointer;
     top: 20px;
     left: 210px;
-    color: #fff;
+    color: black;
 }
 
 .menu-list {
@@ -71,16 +71,16 @@
     background: transparent;
     cursor: pointer;
     transition: 0.1s;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 15px;
 }
 
 .sign-btn:hover, .list-btn:hover, .admin:hover {
     transition: 0.1s;
-    background: white;
-    color: #191919;
-}  
+    background: #006FFF;
+    color: white;
+} 
 
 @media (min-width: 250px) and (max-width: 1024px) {
     .sidebar-container {

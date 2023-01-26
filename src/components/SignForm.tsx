@@ -44,7 +44,7 @@ const SignForm = () => {
         <p className="school-lab">학년 반 번호</p>
         <input type="text" name="schoolNum" className="schoolNum-input" placeholder='예)2206' />
       </div>
-      <div className="lab-div">
+      <div className="lab-div-flex">
         <p className="date-lab">랩실 사용 날짜</p>
           <ReactDatePicker
             dateFormat={'yyyy-MM-dd'}
@@ -52,7 +52,6 @@ const SignForm = () => {
             onChange={(date: Date) => setCalendarDate(date)}
             startDate={calendarDate}
             customInput={React.createElement(datePickerCustom)}
-            className="ReactDatePicker"
           />
       </div>
       <div className="lab-div">

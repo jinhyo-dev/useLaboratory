@@ -78,21 +78,19 @@
     margin-left: 60px;
 }
 
-.accept-btn, .reject-btn {
+.fix-btn {
     background: transparent;
     border: 0;
     cursor: pointer;     
     width: 35px;
     position: relative;
-    left: 40px;
+    left: 57px;
+    color: #191919;
+    top: 4px;
 }
 
-.accept-btn {
+.fix-btn:hover {
     color: #006FFF;
-}
-
-.reject-btn {
-    color: red;
 }
 
 @media(min-width:250px) and  (max-width:425px) {
@@ -157,8 +155,10 @@
         margin-left: 40px;
     }
 
-    .accept-btn, .reject-btn {
-        left: 15px;
+    .fix-btn {
+        font-size: 10px;
+        left: 25px;
         width: 25px;
+        top: 0px;
     }
 }

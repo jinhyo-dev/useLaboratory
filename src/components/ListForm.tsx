@@ -16,8 +16,7 @@ const ListForm = (props: any) => {
         <span>{props.name}박민규</span>
         <span>{props.schoolNum}2209</span>
         <span>{props.date}2023-01-26</span>
-        <input type="submit" name="accept" className='accept-btn' value="승인" />
-        <input type="submit" name="reject" className='reject-btn' value="취소" />
+        <input type="submit" name="fix" className='fix-btn' value="수정" />
       </div>
     </div>
   )
